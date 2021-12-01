@@ -19,16 +19,17 @@ body {
   background-color: var(--color-background);
   color: var(--color-text);
   font-family: "Source Sans Pro", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   font-size: 18px;
   line-height: 1.8;
 }
 
 .container {
-  min-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -40,6 +41,7 @@ body {
 }
 
 form {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -116,11 +118,18 @@ form .password-input i {
 @media (max-width: 800px) {
   .container {
     min-width: 100%;
-    height: auto;
     margin: 0;
   }
   .login {
     display: block;
     border: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .new-account {
+    position: absolute;
+    bottom: -2rem;
+    right: 30px;
   }
 }
