@@ -13,4 +13,4 @@ A responsive login page design in HTML, CSS and a little bit Javascript.
 
 ![alt text](https://kriptodedektifi.net/code.png)
 
-If you like the project, please leave a start ^_^
+If you like the project, please leave a star ^_^
